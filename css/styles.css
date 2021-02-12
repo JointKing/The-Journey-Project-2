@@ -3,51 +3,59 @@
 ==================================== */
 
 * {
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 body {
-    background-color: rgba(250, 250, 250, 1);
-    text-align: center;
+  background-color: rgba(250, 250, 250, 1);
+  text-align: center;
 }
+
 main {
-    background-color: rgba(255, 255, 255, 1);
+  background-image: url(../images/Background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 5px solid #555;
+  border-radius: 10px;
 }
+
 h1 {
-    color: #179C9C;
-    font-size: 1.75rem;
-    font-weight: bold;
-    padding: 30px 0;
-    margin: 0 auto;
+  color: #179c9c;
+  font-size: 1.75rem;
+  font-weight: bold;
+  padding: 30px 0;
+  margin: 0 auto;
 }
 h2 {
-    color: #179C9C;
+  color: #179c9c;
 }
 p {
-    line-height: 1.75rem;
+  line-height: 1.75rem;
 }
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 li {
-    list-style: none;
+  list-style: none;
 }
 li a:hover {
-    color: #9C1717;
+  color: #9c1717;
 }
 footer {
-    display: inline-block;
-    border-top: 1px solid lightgray;
+  display: inline-block;
+  border-top: 1px solid lightgray;
 }
 footer h2 {
-    display: inline;
-    float: left;
-    font-size: .9rem;
+  display: inline;
+  float: left;
+  font-size: 0.9rem;
 }
-footer > h2, footer > nav {
-    padding: 40px 0;
+footer > h2,
+footer > nav {
+  padding: 40px 0;
 }
 
 /* ================================= 
@@ -55,93 +63,93 @@ footer > h2, footer > nav {
 ==================================== */
 
 .wrapper {
-    width: 90%;
-    margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
 .main-nav li {
-    background-color: white;
-    padding: 15px 0;
-    margin-top: 10px;
+  background-color: white;
+  padding: 15px 0;
+  margin-top: 10px;
 }
 .main-nav a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 1.3rem;
-    color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: black;
 }
 .intro p {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 .profile-pic {
-    display: block;
-    margin: 40px auto;
-    width: 80%;
+  display: block;
+  margin: 40px auto;
+  width: 80%;
 }
 #portfolio {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
-#portfolio > h2{
-    padding: 50px 0 40px;
-    font-size: 1.5rem;
-    font-weight: bold;
+#portfolio > h2 {
+  padding: 50px 0 40px;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 .project {
-    padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 .project p {
-    display: inline-block;
-    width: 90%;
+  display: inline-block;
+  width: 90%;
 }
 .project > h2 {
-    margin: 20px 0;
-    font-weight: bold;
+  margin: 20px 0;
+  font-weight: bold;
 }
 .contact-background {
-    background-color: rgba(250, 250, 250, 1);
-    padding-bottom: 70px;
+  background-color: rgba(250, 250, 250, 1);
+  padding-bottom: 70px;
 }
 #skills h2 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding: 40px 0 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 40px 0 20px;
 }
 #skills li {
-    border: 2px dashed lightgray;
-    display: block;
-    width: 70%;
-    padding: 10px 0;
-    margin: 20px auto;
-    text-align: center;
+  border: 2px dashed lightgray;
+  display: block;
+  width: 70%;
+  padding: 10px 0;
+  margin: 20px auto;
+  text-align: center;
 }
 #skills li:hover {
-    color: #9C1717;
-    border: 2px dashed #179C9C;
+  color: #9c1717;
+  border: 2px dashed #179c9c;
 }
 #contact > h2 {
-    padding: 50px 0 20px;
-    font-size: 1.5rem;
-    font-weight: bold;
+  padding: 50px 0 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 #contact > p {
-    padding: 15px;
+  padding: 15px;
 }
 #contact span {
-    font-weight: bold;
-    padding-left: 20px;
+  font-weight: bold;
+  padding-left: 20px;
 }
 .bottom-nav li {
-    float: right;
+  float: right;
 }
 .bottom-nav a {
-    font-size: .85rem;
-    font-weight: bold;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: black;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
 }
-.full-nav{
-    display: none;
+.full-nav {
+  display: none;
 }
 
 /* ================================= 
@@ -149,101 +157,102 @@ footer > h2, footer > nav {
 ==================================== */
 
 @media screen and (min-width: 768px) {
-    .main-nav {
-        display: inline-block;
-        margin: 0 auto;
-        text-align: center;
-    }
-    .main-nav li {
-         float: left;
-        background-color: initial;
-        padding: 0 20px;
-    }
-    .main-nav a {
-        font-size: 1rem;
-    }
-    .intro p {
-        display: block;
-        float: left;
-        text-align: left;
-        width: 60%;
-        margin: 60px auto;
-    }
-    .profile-pic {
-        display: inline-block;
-        width: 35%;
-        margin: 60px auto;
-    }
-    #portfolio {
-        padding-bottom: 40px;
-    }
-    .project {
-        float: left;
-        width: 50%;
-        padding: 20px 5px 40px;
-    }
-    .project > h2 {
-        font-size: 1.25rem;
-    }
-    .project > p {
-        font-size: .95rem;
-        line-height: 1.5rem;
-    }
-    #skills li {
-        display: inline-block;
-        width: 25%;
-        margin-top: 40px;
-    }
-    #contact p {
-        display: inline-block;
-        width: 80%;
-        text-align: center;
-    }
-    .bottom-nav, footer h2 {
-        padding: 20px 0 40px;
-    }
-    .bottom-nav ul {
-        float: right;
-    }
-    .bottom-nav li {
-        float: left;
-    }
-    .bottom-nav a {
-        font-size: .85rem;
-    }
-    .mobile-nav {
-        display: none;
-    }
-    .full-nav {
-        display: block;
-        padding: 0 10px;
-    }
-    .clearfix{
-        clear: both;
-    }
- }
- @media screen and (min-width: 1024px) {
-    h1 {
-        float: left;
-        padding: 50px 0;
-    }
-    .main-nav {
-        float: right;
-        padding-top: 50px;
-    }
-    .main-nav li {
-        float: left;
-    }
-    main {
-        max-width: 95%;
-        margin: 0 auto;
-    }
-    .project {
-        float: left;
-        width: 33%;
-        padding: 20px 5px 40px;
-    }
-    #skills li {
-        width: 20%;
-    }
+  .main-nav {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .main-nav li {
+    float: left;
+    background-color: initial;
+    padding: 0 20px;
+  }
+  .main-nav a {
+    font-size: 1rem;
+  }
+  .intro p {
+    display: block;
+    float: left;
+    text-align: left;
+    width: 60%;
+    margin: 60px auto;
+  }
+  .profile-pic {
+    display: inline-block;
+    width: 35%;
+    margin: 60px auto;
+  }
+  #portfolio {
+    padding-bottom: 40px;
+  }
+  .project {
+    float: left;
+    width: 50%;
+    padding: 20px 5px 40px;
+  }
+  .project > h2 {
+    font-size: 1.25rem;
+  }
+  .project > p {
+    font-size: 0.95rem;
+    line-height: 1.5rem;
+  }
+  #skills li {
+    display: inline-block;
+    width: 25%;
+    margin-top: 40px;
+  }
+  #contact p {
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+  }
+  .bottom-nav,
+  footer h2 {
+    padding: 20px 0 40px;
+  }
+  .bottom-nav ul {
+    float: right;
+  }
+  .bottom-nav li {
+    float: left;
+  }
+  .bottom-nav a {
+    font-size: 0.85rem;
+  }
+  .mobile-nav {
+    display: none;
+  }
+  .full-nav {
+    display: block;
+    padding: 0 10px;
+  }
+  .clearfix {
+    clear: both;
+  }
+}
+@media screen and (min-width: 1024px) {
+  h1 {
+    float: left;
+    padding: 50px 0;
+  }
+  .main-nav {
+    float: right;
+    padding-top: 50px;
+  }
+  .main-nav li {
+    float: left;
+  }
+  main {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+  .project {
+    float: left;
+    width: 33%;
+    padding: 20px 5px 40px;
+  }
+  #skills li {
+    width: 20%;
+  }
 }

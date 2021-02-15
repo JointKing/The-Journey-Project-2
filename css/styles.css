@@ -1,6 +1,4 @@
-/* ================================= 
-  Base Element Styles
-==================================== */
+/*Base Element Styles Sections and Values*/
 
 * {
   box-sizing: border-box;
@@ -77,9 +75,7 @@ footer > nav {
   padding: 40px 0;
 }
 
-/* ================================= 
-  Layout Styles
-==================================== */
+/*Layout Styles Sections and Values*/
 
 .wrapper {
   width: 90%;
@@ -181,9 +177,7 @@ footer > nav {
   display: none;
 }
 
-/* ================================= 
-  Media Queries
-==================================== */
+/* Media Queries Sections and Values*/
 
 @media screen and (min-width: 768px) {
   .main-nav {

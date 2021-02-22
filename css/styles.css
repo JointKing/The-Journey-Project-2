@@ -71,6 +71,7 @@ footer h2 {
   display: inline;
   float: left;
   font-size: 0.9rem;
+  font-family: "Baloo", cursive;
 }
 footer > h2,
 footer > nav {
